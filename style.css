@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1140;
+    margin: 0 auto;
+    box-sizing: unset;
+}
+
+.header{
+    height: 700px;
+    background: #abeafa;
+    flex-shrink: 0;
+}
+
+.header .container{
+    height: inherit;
+    position: relative;
+}
+
+.socialIcons a{
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    left: 69px;
+    top: 24px;
+}
+
+.socialIcons{
+    position: absolute;
+    left: 986px;
+    top: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.welcomeWrap{
+    /* Style for "banner bg" */
+width: 270px;
+height: 300px;
+background-color: #fff51f;
+top: 336px;
+position: absolute;
+padding: 78px 30px 82px 22px;
+}
+
+.welcomeTitle{
+color: #333333;
+font-family: Raleway, sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+position: relative;
+left: 3px;
+}
+
+.welcomeText{
+color: #333333;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 14px;
+margin-top: 24px;
+font-style: italic;
+word-spacing: 1.7px;
+}
+
+.contentWrap{
+    min-height: 200px;
+    background: #f8f8f8;
+    flex-grow: 1;
+}
+
+.contentWrap .container{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.contentLeft{
+    width: 250px;
+    height: 475px; 
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentLeft i{
+    text-align: left;
+    width: 250px;
+    height: 66px;
+    background-color: #333333;
+    padding-left: 42px;
+    padding-top: 24px;
+    color: #ffffff;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.contentLeft a{
+    text-align: left;
+    width: 250px;
+    height: 42px;
+    background-color: #26d2fc;
+    text-decoration: none;
+    padding-left: 42px;
+    padding-top: 5px;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.contentLeft a:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+.contentRight{
+    max-width: 850px;
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    margin-top: -20px;
+}
+
+.contentRight h4{
+    padding-left: 25px;
+    padding-top: 25px;
+    color: #707070;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.flexContainer{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.flexBlock{
+    width: 270px;
+    height: 320px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.instaBlock{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+.instaBlock a{
+    text-align: center;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.instaBlock .flexContainer{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.instaBlock .flexBlock{
+    height: 175px;
+    width: 175px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.instaBlock .flexBlock:first-child:last-child{
+    margin: 0px;
+}
+
+.socialBlock{
+    width: 1140px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+.socialBlock .flexContainer{
+    width: inherit;
+    height: inherit;
+    min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-grow: 1;
+    margin-bottom: 0px;
+}
+
+.socialBlock .flexBlock{
+    min-height: 150px;
+    max-height: 600px;
+    height: 0px;
+    flex-grow: 1;
+    margin: 0px; 
+    display: flex; 
+}
+
+.socialBlock .socialBlockIcons{
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+    font-size: 64px;
+}
+
+.socialBlock .socialBlockIcons a{
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+    font-size: 64px;
+}
+
+.socialBlock .flexBlock:first-child{
+    background-color: #3b5997;
+}
+
+.socialBlock .flexBlock:not(:first-child):not(:last-child){
+    background-color: #3fccfd;
+}
+
+.socialBlock .flexBlock:last-child{
+    background-color: #cb2027;
+}
+
+.footer{
+    padding-top: 70px;
+    min-height: 350px;
+    background-color: #373737;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.footer .container{
+    height: inherit;
+}
+
+.footer .flexContainer{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.footer .flexBlock{
+    height: 250px;
+    width: 0px;
+    min-width: 200px;
+    background-color: #373737;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.footer .form{
+    height: 250px;
+    width: 0px;
+    min-width: 200px;
+    background-color: #373737;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    flex-grow: 2;
+}
+
+.footerTitle{
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footerText{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.mailLink{
+    color: #faef03;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.formBlock{
+    display: flex;
+    flex-direction: row;
+}
+
+#newsEmail{
+    width: 180px;
+    height: 30px;
+    background-color: #fff51f;
+    border: none;
+    text-decoration-color: #333;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+#newsButton{
+    border: none;
+    width: 71px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.underFooter{
+    height: 50px;
+    min-height: 50px;
+    background-color: #333333;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.underFooter .container{
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.underFooter .socialIcons{
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+
+#copy{
+    color: #dad9d9;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin: 0px;
+}
+
+
+
+@media (min-width: 1200px){
+    .socialIcons{
+        left: 986px;
+    }
+
+    .instaBlock{
+        width: 1140px;
+    }
+
+    .socialBlock{
+        width: 1140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .socialIcons{
+        left: 786px;
+    }
+
+    .instaBlock{
+        width: 960px;
+    }
+
+    .socialBlock{
+        width: 960px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .socialIcons{
+        left: 586px;
+    }
+
+    .instaBlock{
+        width: 720px;
+    }
+
+    .socialBlock{
+        width: 720px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .socialIcons{
+        left: 386px;
+    }
+
+    .instaBlock{
+        width: 540px;
+    }
+
+    .socialBlock{
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px){
+    .socialIcons{
+        left: 186px;
+    }
+
+    .instaBlock{
+        width: 200px;
+    }
+
+    .socialBlock{
+        width: 200px;
+    }
+
+    .socialBlock .flexBlock{
+        height: 415px;
+    }
+}
